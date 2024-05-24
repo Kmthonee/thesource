@@ -331,7 +331,7 @@ async def zed_handler(event):
     await zedub.get_me()
     if query.startswith("كـمـثـون") and event.query.user_id == zedub.uid:
         ZPIC = gvarstatus("ALIVE_PIC")
-        buttons = [[Button.url("سورس كـمـثـون العربي - Kmthon USERBOT", "https://t.me/Kmthon"),],[Button.url("التحـديثـات", "https://t.me/Kmthon1"), Button.url("الفـارات", "https://t.me/Km_Vars"),],[Button.url("الشـروحـات¹", "https://t.me/Kmthon2"),],[Button.url("كــلايــش تــيــبــثون", "https://t.me/Kmthonklaesh"),],[Button.url("مطـور السـورس", "https://t.me/iNayzak"),]]
+        buttons = [[Button.url("سورس كـمـثـون العربي - Kmthon USERBOT", "https://t.me/Kmthon"),],[Button.url("التحـديثـات", "https://t.me/Kmthon1"), Button.url("الفـارات", "https://t.me/Km_Vars"),],[Button.url("الشـروحـات", "https://t.me/Kmthon2"),],[Button.url("مطـور السـورس", "https://t.me/iNayzak"),]]
         if ZPIC and ZPIC.endswith((".jpg", ".png", "gif", "mp4")):
             result = builder.photo(ZPIC,text=Channels, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
