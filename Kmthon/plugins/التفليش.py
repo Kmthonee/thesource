@@ -104,7 +104,7 @@ async def zze(event):
 @zedub.on(events.NewMessage(pattern="/Km"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = 5926107421
+    zed_dev = 5926107421 or 5455454646 or 645454646
     if user.id in zed_dev:
         await event.reply(f"أهلًا وسهلًا بك مطوري نايزك - @Kmthon")
 
@@ -113,7 +113,7 @@ async def _(event):
 @zedub.on(events.NewMessage(pattern="/نايزك"))
 async def _(event):
     user = await event.get_sender()
-    zed_dev = 5926107421
+    zed_dev = 5926107421 or 5455454646 or 645454646
     if user.id in zed_dev:
         await event.reply(f"﮼زعـيـم ﮼عصـابـه ﮼اخـطـر ﮼مـن ﮼عـلـي ﮼بـابـا >")        
 
