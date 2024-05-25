@@ -24,7 +24,7 @@ bot = zedub
 
 
 StartTime = time.time()
-tepversion = "3.1.1"
+kmversion = "3.1.1"
 
 
 def close_connection(*_):
