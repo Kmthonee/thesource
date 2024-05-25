@@ -32,9 +32,9 @@ if not Config.ALIVE_NAME:
         LOGS.error(f"- {e}")
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل تيبثــون ⌭")
+    LOGS.info("⌭ بـدء تنزيـل كـمـثـون ⌭")
     zedub.loop.run_until_complete(setup_bot())
-    LOGS.info("✓ تـم تنزيـل تيبثــون .. بـنجـاح ✓")
+    LOGS.info("✓ تـم تنزيـل كـمـثـون .. بـنجـاح ✓")
 except Exception as e:
     LOGS.error(f"{str(e)}")
     sys.exit()
