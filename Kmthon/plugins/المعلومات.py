@@ -9,7 +9,7 @@ import time
 from datetime import datetime
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
-from Kmthon import StartTime, zedub, tepversion
+from Kmthon import StartTime, zedub, kmversion
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id, parse_pre, yaml_format, install_pip, get_user_from_event, _format

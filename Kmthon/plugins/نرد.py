@@ -9,7 +9,7 @@ from telethon.events import CallbackQuery, InlineQuery
 from telethon.utils import get_display_name
 from telethon.errors import QueryIdInvalidError
 from telethon.tl.types import InputMessagesFilterDocument
-from Kmthon import StartTime, zedub, tepversion
+from Kmthon import StartTime, zedub, kmversion
 from ..Config import Config
 from ..core import check_owner, pool
 from ..core.logger import logging
