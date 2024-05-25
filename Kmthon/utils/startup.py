@@ -376,7 +376,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ أثناء التعرف على فار PM_LOGGER_GROUP_ID.\n" + str(e))
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامة (وظيفتهـا تخزيـن رسـائل الخـاص.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Tep.jpg")
+        photozed = await zedub.upload_file(file="zedthon/malath/Km.jpg")
         _, groupid = await create_supergroup(
             "مجموعـة التخـزين", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
