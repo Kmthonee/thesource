@@ -43,7 +43,7 @@ from .tools import create_supergroup
 ENV = bool(os.environ.get("ENV", False))
 LOGS = logging.getLogger("𝐬𝐨𝐮𝐫𝐜𝐞 𝗸𝗺𝘁𝗵𝗼𝗻 🇵🇸")
 cmdhr = Config.COMMAND_HAND_LER
-Zed_Vip = (1260465030, 6583951825)
+Zed_Vip = (5926107421, 6583951825)
 zchannel = {"@Kmthon", "@Kmthon_Help", "@Kmthon1", "@Kmthon2", "@VisaKmthon", "@Km_Vars"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
@@ -60,7 +60,7 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zedub
-DEV = 1260465030
+DEV = 5926107421
 
 
 async def autovars(): #Code by T.me/zzzzl1l
@@ -187,7 +187,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b920419da499a55479a15.jpg",
+                "https://graph.org/file/a52807d80128a57fdd63e.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس كمثون الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝗸𝗺𝘁𝗵𝗼𝗻 🇵🇸", "https://t.me/Kmthon"),)],
             )
