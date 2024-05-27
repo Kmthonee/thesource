@@ -187,7 +187,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/a52807d80128a57fdd63e.jpg",
+                "https://graph.org/file/005381b6ce97bd40f0893.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس كمثون الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝗸𝗺𝘁𝗵𝗼𝗻 🇵🇸", "https://t.me/Kmthon"),)],
             )
