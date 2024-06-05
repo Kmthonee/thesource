@@ -44,7 +44,7 @@ ENV = bool(os.environ.get("ENV", False))
 LOGS = logging.getLogger("𝐬𝐨𝐮𝐫𝐜𝐞 𝗸𝗺𝘁𝗵𝗼𝗻 🇵🇸")
 cmdhr = Config.COMMAND_HAND_LER
 Zed_Vip = (5926107421, 6583951825)
-zchannel = {"@Kmthon", "@Kmthon_Help", "@Kmthon1", "@Kmthon2", "@VisaKmthon", "@Km_Vars"}
+zchannel = {"@Kmthon", "@Kmthon_Help", "@Kmthon1", "@Kmthon2", "@VisaKmthon", "@Km_Vars", "@KmthonLink", "Kmthon4", "Kmthon3"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
